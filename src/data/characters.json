@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Gon Freecss",
+        "ability": "Jajanken",
+        "age": 12,
+        "image": "images/gon.webp"
+    },
+    {
+        "name": "Killua Zoldyck",
+        "ability": "Godspeed",
+        "age": 12,
+        "image": "images/killua.webp"
+    },
+{
+    "name": "Leorio Paradinight",
+    "ability": "Remote Punch",
+    "age": 17,
+    "image": "images/leorio.webp"
+},
+{
+    "name": "Kurapika",
+    "ability": "Chain Jail",
+    "age": 19,
+    "image": "images/kurapika.webp"
+},
+{
+    "name": "Hisoka Morow",
+    "ability": "Bungee Gum",
+    "age": 28,
+    "image": "images/hisoka.webp"
+},
+]
