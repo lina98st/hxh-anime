@@ -18,4 +18,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-})
+  json: {
+    stringify: true // ✅ Korrekt geschlossene JSON-Option
+  } // ✅ Hier war der Fehler: Die geschweifte Klammer muss so geschlossen werden!
+});

@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
 import CharacterCard from './CharacterCard.vue';
-import characters from './data/characters.json'; 
-
+import characters from '../data/characters.json'; 
 
 interface Hunter {
   name: string;
@@ -10,11 +9,17 @@ interface Hunter {
   age: number;
   image: string;
 }
+
+const characterList = ref<Hunter[]>(characters);
 </script>
 
 <template>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-4">
-    <CharacterCard v-for="hunter in characters" :key="hunter.name" :hunter="hunter" />
+    <CharacterCard 
+    v-for="(hunter, index) in characterList" 
+    :key="index" 
+    :hunter="hunter"  
+    />
   </div>
 </template>
 
@@ -24,3 +29,4 @@ interface Hunter {
   margin: auto;
 }
 </style>
+

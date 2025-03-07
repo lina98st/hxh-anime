@@ -1,25 +1,22 @@
 <script setup lang="ts">
-import CharacterList from './components/CharacterList.vue';
-
-const gon = {
-  name: "Gon Freecss",
-  ability: "Jajanken",
-  age: 12
-};
-
+import CharactersList from './components/CharactersList.vue'; // 
 </script>
 
 <template>
   <header>
-Hunter x Hunter Characters
+    <h1>Hunter x Hunter Characters</h1>
   </header>
 
   <main>
-<div>
-  <CharacterCard :Hunter="gon" />
-  </div>
+    <CharactersList /> 
   </main>
 </template>
 
 <style scoped>
+header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 </style>
