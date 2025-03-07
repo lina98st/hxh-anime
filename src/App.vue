@@ -17,6 +17,6 @@ header {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 20px;
+margin: 1rem;
 }
 </style>

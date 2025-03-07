@@ -7,6 +7,10 @@
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
   background-color: pink;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+img {
+  margin-bottom: 0.5rem;
 }

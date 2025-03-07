@@ -14,7 +14,7 @@ const characterList = ref<Hunter[]>(characters);
 </script>
 
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 p-4">
     <CharacterCard 
     v-for="(hunter, index) in characterList" 
     :key="index" 
